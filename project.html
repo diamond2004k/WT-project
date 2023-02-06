@@ -22,8 +22,28 @@
         background-color: lightblue;    
         text-align: center;
     }
+        body {
+  height: 100%;
+}
+
+.mydiv {
+  width:100%;
+  height:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
+}
     </style>
 </head>
+    <div class="mydiv">
 <body>
     <center><h1>RV University, Bangalore</h1></center>
     <center><img src = "img/rv1.jpg" alt = "RV University" height="230" width="350"></center>
@@ -113,6 +133,6 @@ For admissions: admissions@rvu.edu.in<br><br></p>
             <li>PHD</li>
           </ul>
         </div>
-       
+    </div>  
 </body>
 </html>
